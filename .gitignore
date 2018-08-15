@@ -1,9 +1,15 @@
-/vendor
+# 3RD Party
+#-------------------------
+vendor/
+node_modules/
+npm-debug.log
 composer.phar
 composer.lock
+
+# TEMP Files
+#-------------------------
 .DS_Store
 .vscode
-.env
 
 
 # IDE Files
@@ -17,3 +23,19 @@ composer.lock
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+
+# Laravel 4 specific
+#-------------------------
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+#-------------------------
+public/storage
+public/hot
+storage/*.key
+.env.*.php
+.env.php
+.env
+Homestead.yaml
+Homestead.json
