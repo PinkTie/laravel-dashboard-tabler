@@ -5,25 +5,50 @@
 
 Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.5/5.6 project.
 
-## Usage
+## Contents
 
-1.  Fresh install Laravel 5.5/5.6 and `cd` to your app.
-2.  Install this preset via `composer require pinktie/laravel-dashboard-tabler`. Laravel 5.5/5.6 will automatically discover this package. No need to register the service provider.
-3.  Use `php artisan preset tabler` for basic Tabler preset. **OR** Use `php artisan preset tabler-auth` for basic preset, Auth route entry and Tabler Auth views in one go. (**NOTE**: If you run this command several times, be sure to clean up the duplicate Auth entries in `routes/web.php`)
-4.  `yarn`
-5.  `yarn dev` or `yarn watch`
-6.  Configure your database (mysql, sqlite, etc.)
-7.  `php artisan migrate` to create basic user tables.
-8.  `php artisan serve` (or equivalent) to run server and test preset.
+- [Installation](#installation)
+- [Changelog](#changelog)
+- [Support](#support)
+- [Security](#security)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+1) With a clean install of Laravel 5.5 or 5.6 you can install the package via composer:
+>  `composer require pinktie/laravel-dashboard-tabler`
+
+Laravel will automatically discover this package, there is no need to register the service provider.
+
+2) Choose a Preset option:
+>  (**NOTE**: If you run the preset command more than one time, you will have to clean up the duplicate Auth entries in `routes/web.php`)
+
+For a basic Tabler preset run:
+>  `php artisan preset tabler`
+
+For a basic Tabler preset, Auth route entry and Tabler Auth views run:
+>  `php artisan preset tabler-auth`
+
+
+3) Install package depenancies via yarn:
+>  `yarn`
+>  `yarn dev` or `yarn watch`
+
+4) Configure your database settings
+
+5) Migrate user tables:
+>  `php artisan migrate`
 
 
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-## Feature Request / Bug Reports
+## Support
 
-If you discover any bugs or problems or would like to request addtional features, please use the GitHub issue tracker.
+If you discover any issues or would like to request addtional features, please use the GitHub issue tracker.
 
 ## Security
 
