@@ -15,3 +15,29 @@ Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.
 6.  Configure your database (mysql, sqlite, etc.)
 7.  `php artisan migrate` to create basic user tables.
 8.  `php artisan serve` (or equivalent) to run server and test preset.
+
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Feature Request / Bug Reports
+
+If you discover any bugs or problems or would like to request addtional features, please use the GitHub issue tracker.
+
+## Security
+
+If you discover any security related issues, please email support@pinktietech.com instead of using the issue tracker.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Credits
+
+- [Kevin Fairbanks](https://github.com/KevinFairbanks)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
