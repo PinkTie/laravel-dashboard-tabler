@@ -1,4 +1,4 @@
-# [(https://pinktietech.com/wp-content/uploads/2017/03/PinkTie-60x60.png)] PinkTie Technology Group
+# ![PinkTie Logo](https://pinktietech.com/wp-content/uploads/2017/03/PinkTie-60x60.png) PinkTie Technology Group
 # Laravel 5.5/5.6 Preset for Tabler Dashboard UI Kit
 
 Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.5/5.6 project.
