@@ -49,10 +49,10 @@ class TablerPreset extends Preset
      */
     protected static function updateAssets()
     {
-        copy(__DIR__.'/tabler-stubs/sass/app.scss', resource_path('assets/sass/app.scss'));
-        copy(__DIR__.'/tabler-stubs/sass/_variables.scss', resource_path('assets/sass/_variables.scss'));
-        (new Filesystem())->copyDirectory(__DIR__.'/tabler-stubs/sass/tabler', resource_path('assets/sass/tabler'));
-        (new Filesystem())->copyDirectory(__DIR__.'/tabler-stubs/fonts', resource_path('assets/fonts'));
+        copy(__DIR__.'/tabler-stub/sass/app.scss', resource_path('assets/sass/app.scss'));
+        copy(__DIR__.'/tabler-stub/sass/_variables.scss', resource_path('assets/sass/_variables.scss'));
+        (new Filesystem())->copyDirectory(__DIR__.'/tabler-stub/sass/tabler', resource_path('assets/sass/tabler'));
+        (new Filesystem())->copyDirectory(__DIR__.'/tabler-stub/fonts', resource_path('assets/fonts'));
     }
     
     /**
@@ -60,8 +60,8 @@ class TablerPreset extends Preset
      */
     protected static function updateBootstrapping()
     {
-        copy(__DIR__.'/tabler-stubs/webpack.mix.js', base_path('webpack.mix.js'));
-        copy(__DIR__.'/tabler-stubs/bootstrap.js', resource_path('assets/js/bootstrap.js'));
+        copy(__DIR__.'/tabler-stub/webpack.mix.js', base_path('webpack.mix.js'));
+        copy(__DIR__.'/tabler-stub/bootstrap.js', resource_path('assets/js/bootstrap.js'));
     }
     
     /**
@@ -75,7 +75,7 @@ class TablerPreset extends Preset
             "\nAuth::routes();\n\nRoute::get('/home', 'HomeController@index')->name('home');\n\n",
             FILE_APPEND
         );
-        (new Filesystem())->copyDirectory(__DIR__.'/tabler-stubs/views', resource_path('views'));
+        (new Filesystem())->copyDirectory(__DIR__.'/tabler-stub/views', resource_path('views'));
     }
     
     /**
@@ -88,7 +88,7 @@ class TablerPreset extends Preset
         return str_replace(
             '{{namespace}}',
             Container::getInstance()->getNamespace(),
-            file_get_contents(__DIR__.'/tabler-stubs/controllers/HomeController.stub')
+            file_get_contents(__DIR__.'/tabler-stub/controllers/HomeController.stub')
         );
     }
 }
