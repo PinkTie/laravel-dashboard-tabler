@@ -5,6 +5,8 @@
 
 Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.5/5.6 project.
 
+Looking for the Lumen Version? Checkout [PinkTie/lumen-dashboard-tabler](https://github.com/PinkTie/lumen-dashboard-tabler/)
+
 ## Contents
 
 - [Installation](#installation)
