@@ -1,6 +1,6 @@
 {
   "name": "pinktie/laravel-dashboard-tabler",
-  "description": "Laravel 5.5/5.6 Preset for Tabler Dashboard UI Kit",
+  "description": "Laravel 5.* Preset for Tabler Dashboard UI Kit",
   "keywords": ["laravel", "preset", "tabler", "bootstrap", "dashboard", "ui kit"],
   "homepage": "https://github.com/PinkTie/laravel-dashboard-tabler",
   "license": "MIT",
