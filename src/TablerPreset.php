@@ -41,6 +41,7 @@ class TablerPreset extends Preset
         return [
             'bootstrap' => '^4.1.0',
             'popper.js' => '^1.14.3',
+            'jquery' => '^3.2',
         ] + Arr::except($packages, ['bootstrap-sass']);
     }
     
