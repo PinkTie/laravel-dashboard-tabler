@@ -1,9 +1,9 @@
 ### ![PinkTie Logo](https://pinktietech.com/wp-content/uploads/2017/03/PinkTie-60x60.png) PinkTie Technology Group
-# Laravel 5.5/5.6 Preset for Tabler Dashboard UI Kit
+# Laravel 5.x Preset for Tabler Dashboard UI Kit
 
 [![Latest Stable Version](https://poser.pugx.org/pinktie/laravel-dashboard-tabler/v/stable)](https://packagist.org/packages/pinktie/laravel-dashboard-tabler) [![License](https://poser.pugx.org/pinktie/laravel-dashboard-tabler/license)](https://packagist.org/packages/pinktie/laravel-dashboard-tabler) [![Total Downloads](https://poser.pugx.org/pinktie/laravel-dashboard-tabler/downloads)](https://packagist.org/packages/pinktie/laravel-dashboard-tabler) [![Latest Unstable Version](https://poser.pugx.org/pinktie/laravel-dashboard-tabler/v/unstable)](https://packagist.org/packages/pinktie/laravel-dashboard-tabler)
 
-Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.5/5.6 project.
+Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.x project.
 
 ## Contents
 
@@ -17,7 +17,7 @@ Preset for [Tabler](https://tabler.github.io/) scaffolding on a fresh Laravel 5.
 
 ## Installation
 
-1) With a clean install of Laravel 5.5 or 5.6 you can install the package via composer:
+1) With a clean install of Laravel 5.5.x, 5.6.x, or 5.7.x you can install the package via composer:
 >  `composer require pinktie/laravel-dashboard-tabler`
 
 Laravel will automatically discover this package, there is no need to register the service provider.
